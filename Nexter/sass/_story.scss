@@ -1,11 +1,14 @@
-.story{
+.story {
 
-    &__pictures{
-background-color: $color-primary;
+    &__pictures {
+        background-color: $color-primary;
+
+        grid-column: full-start / col-end 4;
     }
 
 
-    &__content{
+    &__content {
         background-color: $color-grey-light-1;
+        grid-column: ;
     }
 }
